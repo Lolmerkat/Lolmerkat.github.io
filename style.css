@@ -74,13 +74,28 @@ div.headline span.linkToChannel:hover {
         /*rgba(0, 0, 0, 0.5) 10px 10px 10px*/;
 }
 
+div.socialMediaIcons {
+    margin-top: 2.5%;
+}
+
 svg.socialIcon {
     width: 5%;
     height: 5%;
     fill: white;
+    margin-left: 50px;
+    margin-right: 50px;
     transition: all 0.5s;
 }
 
+svg.socialIcon.tiktok:hover {
+    fill: black;
+    filter: 
+        drop-shadow(5px 5px 5px rgb(255, 0, 80))
+        drop-shadow(-5px -5px 5px rgb(0, 242, 234));
+}
+
 svg.socialIcon.twitter:hover {
-    fill: aqua;
+    fill: rgb(29, 161, 242);
+    filter: 
+        drop-shadow(0px 0px 10px white)
 }
